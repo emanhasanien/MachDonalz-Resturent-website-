@@ -1,0 +1,527 @@
+
+
+{
+  "categories": [
+    {
+      "id": "burgers",
+      "name": "البرجر",
+      "nameEn": "Burgers"
+    },
+    {
+      "id": "chicken",
+      "name": "الدجاج",
+      "nameEn": "Chicken"
+    },
+    {
+      "id": "sides",
+      "name": "الأطباق الجانبية",
+      "nameEn": "Sides"
+    },
+    {
+      "id": "drinks",
+      "name": "المشروبات",
+      "nameEn": "Drinks"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": 1,
+      "name": "ليتل تايستي ",
+      "description": "البرجر الأشهر في العالم مع اللحم البقري والصوص الخاص",
+      "price": "65 جنيه",
+      "image": "./assets/Little-Tasty.webp",
+      "rating": 4.8,
+      "popular": true,
+      "calories": "520 سعرة حرارية",
+      "category": "burgers"
+    },
+    {
+      "id": 2,
+      "name":"دوبل ماك رويال®",
+      "description": "برجر لحم بقري ربع باوند مع الجبن الذائب",
+      "price": "70 جنيه",
+      "image":"./assets/Double-McRoyale.webp",
+      "rating": 4.7,
+      "popular": false,
+      "calories": "630 سعرة حرارية",
+      "category": "burgers"
+    },
+    {
+      "id": 3,
+      "name": "ماك رويال®",
+      "description": "برجر مزدوج باللحم البقري والجبن",
+      "price": "55 جنيه",
+      "image": "./assets/McRoyale.webp",
+      "rating": 4.6,
+      "popular": true,
+      "calories": "450 سعرة حرارية",
+      "category": "burgers"
+    },
+    {
+      "id": 4,
+      "name":"دوبل بيج تايستي®",
+      "description":  "برجر مزدوج باللحم البقري والجبن",
+      "price": "45 جنيه",
+      "image": "./assets/Double-Big-Tasty.webp",
+      "rating": 4.9,
+      "popular": true,
+      "calories": "280 سعرة حرارية",
+      "category": "burgers"
+    },
+    {
+      "id": 5,
+      "name":"بيج تايستي®",
+      "description":"برجر مزدوج باللحم البقري والجبن",
+      "price": "50 جنيه",
+      "image": "./assets/Big-Tasty.webp",
+      "rating": 4.5,
+      "popular": false,
+      "calories": "400 سعرة حرارية",
+      "category": "burgers"
+    },
+    {
+      "id": 6,
+      "name": "بيج ماك®",
+      "description": "برجر مزدوج باللحم البقري والجبن",
+      "price": "60 جنيه",
+      "image": "./assets/Big-Mac-.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "350 سعرة حرارية",
+      "category": "burgers"
+    },
+    {
+      "id": 7,
+      "name": "دوبل بيف برجر",
+      "description": "برجر مزدوج باللحم البقري والجبن",
+      "price": "25 جنيه",
+      "image": "./assets/Double-Beef-Burger.webp",
+      "rating": 4.9,
+      "popular": true,
+      "calories": "340 سعرة حرارية",
+      "category": "burgers"
+    },
+    {
+      "id": 8,
+      "name": "بيف برجر",
+      "description":  "برجر مزدوج باللحم البقري والجبن",
+      "price": "20 جنيه",
+      "image": "./assets/Beef-Burger.webp",
+      "rating": 4.4,
+      "popular": false,
+      "calories": "230 سعرة حرارية",
+      "category": "burgers"
+    },
+    {
+      "id": 9,
+      "name":"ماك دوبل®",
+      "description": "برجر مزدوج باللحم البقري والجبن",
+      "price": "35 جنيه",
+      "image": "./assets/Beef-Burger.webp",
+      "rating": 4.3,
+      "popular": false,
+      "calories": "180 سعرة حرارية",
+      "category": "burgers"
+    },
+    {
+      "id": 10,
+      "name": "تشيز برجر ديلوكس",
+      "description": "برجر مزدوج باللحم البقري والجبن",
+      "price": "15 جنيه",
+      "image":"./assets/Cheeseburger-Deluxe.webp",
+      "rating": 4.8,
+      "popular": true,
+      "calories": "210 سعرة حرارية",
+      "category": "burgers"
+    },
+    {
+      "id": 11,
+      "name": "دوبل تشيز برجر",
+      "description":"برجر مزدوج باللحم البقري والجبن",
+      "price": "20 جنيه",
+      "image": "./assets/Double-Cheeseburger.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "burgers"
+    },
+    
+    {
+      "id": 12,
+      "name": "تشيز برجر",
+      "description":"برجر مزدوج باللحم البقري والجبن",
+      "price": "20 جنيه",
+      "image": "./assets/Cheeseburger.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "burgers"
+    },
+    
+    {
+      "id": 13,
+      "name": "جراند تشيكن سبايسي",
+      "description":"ساندويتش دجاج مقرمش مع الخس والمايونيز",
+      "price": "20 جنيه",
+      "image": "./assets/Grand-Chicken-S.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+    {
+      "id": 14,
+      "name": "جراند تشيكن بريميير",
+      "description":"ساندويتش دجاج مقرمش مع الخس والمايونيز",
+      "price": "20 جنيه",
+      "image": "./assets/Grand-Chicken-P.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+      {
+      "id": 15,
+      "name":"تشيكن ماك",
+      "description":"ساندويتش دجاج مشوي مع الخضار الطازجة",
+      "price": "20 جنيه",
+      "image": "./assets/Chicken-Mac.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+      {
+      "id": 16,
+      "name":"بيج تيستي تشيكن",
+      "description":"ساندويتش دجاج مشوي مع الخضار الطازجة",
+      "price": "20 جنيه",
+      "image": "./assets/Bigtasty-Chicken.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+     {
+      "id": 17,
+      "name":"دوبل ماك تشيكن",
+      "description":"قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "20 جنيه",
+      "image": "./assets/Double-McChicken.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+      {
+      "id": 18,
+      "name":"ماك تشيكن®",
+      "description":"قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "20 جنيه",
+      "image": "./assets/Chicken-MACDO.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+     {
+      "id": 19,
+      "name":"سبايسي تشيكن ماكدو ديلوكس",
+      "description":"قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "20 جنيه",
+      "image": "./assets/Chicken-MACDO-Deluxe-Spicy.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+    {
+      "id": 20,
+      "name":"تشيكن ماكدو ديلوكس",
+      "description":"قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "20 جنيه",
+      "image": "./assets/Chicken-MACDO-Deluxe.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+    {
+      "id": 21,
+      "name":"سبايسي تشيكن ماكدو",
+      "description":"قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "20 جنيه",
+      "image": "./assets/Chicken-Mcdo-Spicy.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+     {
+      "id": 22,
+      "name":"تشيكن ماكدو",
+      "description":"قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "20 جنيه",
+      "image": "./assets/Chicken-MACDO.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+       {
+      "id": 23,
+      "name":"تشيكن فيليه عادى",
+      "description":"قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "20 جنيه",
+      "image": "./assets/Chicken-Fillet-R.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+      {
+      "id": 24,
+      "name":"تشيكن فيليه سبايسي",
+      "description":"قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "20 جنيه",
+      "image": "./assets/Chicken-Fillet-s.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+     {
+      "id": 25,
+      "name": "سلطة سيزر",
+      "description": "سلطة طازجة مع الدجاج والجبن",
+      "price": "35 جنيه",
+      "image": "./assets/Gs.webp",
+      "rating": 4.3,
+      "popular": false,
+      "calories": "180 سعرة حرارية",
+      "category": "sides"
+    },
+     {
+      "id": 26,
+      "name": "سلطة سيزر",
+      "description": "سلطة طازجة مع الدجاج والجبن",
+      "price": "35 جنيه",
+      "image": "./assets/C.webp",
+      "rating": 4.3,
+      "popular": false,
+      "calories": "180 سعرة حرارية",
+      "category": "sides"
+    },
+       {
+      "id": 27,
+      "name": "ماكدونالدز® فرايز",
+      "description": "البطاطس المقلية الذهبية المقرمشة",
+      "price": "35 جنيه",
+      "image": "./assets/Fries.webp",
+      "rating": 4.3,
+      "popular": false,
+      "calories": "180 سعرة حرارية",
+      "category": "sides"
+    },
+       {
+      "id": 28,
+      "name": "تشيكن ماك ناجتس® ٩ قطعتشيكن ماك ناجتس® ٩ قطع",
+      "description": "قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "35 جنيه",
+      "image": "./assets/9.webp",
+      "rating": 4.3,
+      "popular": false,
+      "calories": "180 سعرة حرارية",
+      "category": "sides"
+    },
+        {
+      "id": 29,
+      "name":"تشيكن ماك ناجتس® ٦ قطع",
+      "description": "قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "35 جنيه",
+      "image": "./assets/6.webp",
+      "rating": 4.3,
+      "popular": false,
+      "calories": "180 سعرة حرارية",
+      "category": "sides"
+    },
+         {
+      "id": 30,
+      "name":"تشيكن ماك ناجتس® ٤ قطعتشيكن ماك ناجتس® ٤ قطع",
+      "description": "قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "35 جنيه",
+      "image": "./assets/4.webp",
+      "rating": 4.3,
+      "popular": false,
+      "calories": "180 سعرة حرارية",
+      "category": "sides"
+    },
+    {
+      "id": 31,
+      "name": "ميلك شيك فانيليا",
+      "description": "مشروب الآيس كريم الكريمي بطعم الفانيليا",
+      "price": "30 جنيه",
+      "image": "./assets/MilkChekvanilia.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "320 سعرة حرارية",
+      "category": "drinks"
+    },
+    {
+      "id": 32,
+      "name":"ماك فيز فراولة",
+      "description": "مشروب غازي منعش وبارد",
+      "price": "30 جنيه",
+      "image": "./assets/MilkChekvanilia.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "320 سعرة حرارية",
+      "category": "drinks"
+    },
+     {
+      "id": 33,
+      "name":"ماك فيز بلو باشون",
+      "description": "مشروب غازي منعش وبارد",
+      "price": "30 جنيه",
+      "image": "./assets/McFizz-Blue-Th.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "320 سعرة حرارية",
+      "category": "drinks"
+    },
+      {
+      "id": 34,
+      "name":"فانتا",
+      "description": "مشروب غازي منعش وبارد",
+      "price": "30 جنيه",
+      "image": "./assets/LF.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "320 سعرة حرارية",
+      "category": "drinks"
+    },
+      {
+      "id": 35,
+      "name":"سبرايت",
+      "description": "مشروب غازي منعش وبارد",
+      "price": "30 جنيه",
+      "image": "./assets/LS.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "320 سعرة حرارية",
+      "category": "drinks"
+    },
+     {
+      "id": 36,
+      "name":"إسبرسو",
+      "description": "مشروب ساخن " ,
+      "price": "30 جنيه",
+      "image": "./assets/Espresso.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "320 سعرة حرارية",
+      "category": "drinks"
+    },
+     {
+      "id": 37,
+      "name":"ميلك شيك فراولة",
+      "description": "مشروب  منعش وبارد",
+      "price": "30 جنيه",
+      "image": "./assets/MilkCheckFraewlla.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "320 سعرة حرارية",
+      "category": "drinks"
+    },
+     {
+      "id": 38,
+      "name":"ميلك شيك شوكولاتة",
+      "description": "مشروب  منعش وبارد",
+      "price": "30 جنيه",
+      "image": "./assets/MilkChoclate.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "320 سعرة حرارية",
+      "category": "drinks"
+    },
+     {
+      "id": 39,
+      "name":"شاى",
+      "description": "مشروب  منعش وساخن",
+      "price": "30 جنيه",
+      "image": "./assets/HotTea.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "320 سعرة حرارية",
+      "category": "drinks"
+    }
+  ],
+  "MostFamous-Products":[
+      {
+      "id": 1,
+      "name": "بيج ماك®",
+      "description": "برجر مزدوج باللحم البقري والجبن",
+      "price": "60 جنيه",
+      "image": "./assets/Big-Mac-.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "350 سعرة حرارية",
+      "category": "burgers"
+    },
+     {
+      "id": 2,
+      "name":"تشيكن ماك",
+      "description":"ساندويتش دجاج مشوي مع الخضار الطازجة",
+      "price": "20 جنيه",
+      "image": "./assets/Chicken-Mac.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+     {
+      "id": 3,
+      "name":"دوبل ماك تشيكن",
+      "description":"قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "20 جنيه",
+      "image": "./assets/Double-McChicken.webp",
+      "rating": 4.6,
+      "popular": false,
+      "calories": "140 سعرة حرارية",
+      "category": "chicken"
+    },
+     {
+      "id": 4,
+      "name": "ماكدونالدز® فرايز",
+      "description": "البطاطس المقلية الذهبية المقرمشة",
+      "price": "35 جنيه",
+      "image": "./assets/Fries.webp",
+      "rating": 4.3,
+      "popular": false,
+      "calories": "180 سعرة حرارية",
+      "category": "sides"
+    },
+     {
+      "id": 5,
+      "name":"تشيكن ماك ناجتس® ٦ قطع",
+      "description": "قطع الدجاج المقرمشة الذهبية مع الصوص",
+      "price": "35 جنيه",
+      "image": "./assets/6.webp",
+      "rating": 4.3,
+      "popular": false,
+      "calories": "180 سعرة حرارية",
+      "category": "sides"
+    },
+     {
+      "id": 6,
+      "name": "ميلك شيك فانيليا",
+      "description": "مشروب الآيس كريم الكريمي بطعم الفانيليا",
+      "price": "30 جنيه",
+      "image": "./assets/MilkChekvanilia.webp",
+      "rating": 4.7,
+      "popular": true,
+      "calories": "320 سعرة حرارية",
+      "category": "drinks"
+    }
+  ]
+}
