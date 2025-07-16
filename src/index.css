@@ -1,1 +1,34 @@
 @import "tailwindcss";
+
+ html {
+    direction: rtl;
+  }
+  :root{
+    --mcdonaliz-red: #DF2622;
+    --mcdonaliz-yellow:#FFCC00;
+    --mcdonaliz-dark-red:#FF2200
+  }
+
+body{
+     font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: rtl;
+
+}
+.text-mcdonaliz-red{
+   color: var(--mcdonaliz-red);
+}
+.text-mcdonaliz-yellow{
+   color: var(--mcdonaliz-yellow);
+}
+.bg-mcdonaliz-red{
+  background-color: var(--mcdonaliz-red);
+}
+.bg-mcdonaliz-yellow{
+  background-color: var(--mcdonaliz-yellow);
+}
+.bg-mcdonaliz-dark-red{
+  background-color: var(--mcdonaliz-dark-red);
+}
+.capitalize-first::first-letter {
+     text-transform: uppercase;
+   }

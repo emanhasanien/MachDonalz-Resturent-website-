@@ -1,18 +1,21 @@
+import { ProductsProvider } from "../Context/ProductsProvider";
+import Footer from "./Footer/Footer";
+import Navbar from "./Navbar";
 
-import Navbar from './Navbar'
-import Footer from './Footer'
-import { Outlet } from 'react-router-dom'
+import { Outlet } from "react-router-dom";
 
 function Layout() {
   return (
     <>
-    <Navbar/>
-     <div>
-          <Outlet/>
-     </div>
-     <Footer/>
+      <ProductsProvider>
+        <Navbar />
+        <div>
+          <Outlet />
+        </div>
+        <Footer />
+      </ProductsProvider>
     </>
-  )
+  );
 }
 
-export default Layout
+export default Layout;

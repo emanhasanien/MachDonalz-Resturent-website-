@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Components/layout";
 import { Children, lazy } from "react";
-const Home = lazy(() => import("./Pages/Home"));
+const Home = lazy(() => import("./Pages/Home/Home"));
 const MainMenu = lazy(() => import("./Pages/MainMenu"));
 const About = lazy(() => import("./Pages/About"));
 const Contact = lazy(() => import("./Pages/Contact"));
