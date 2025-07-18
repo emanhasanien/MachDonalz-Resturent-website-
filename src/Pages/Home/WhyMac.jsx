@@ -25,7 +25,7 @@ const WhyMac = () => {
     "truck": Truck
   }
   return (
-    <div className="my-36 md:my-20  ">
+    <div className=" mb-20 ">
       <div className="text-center">
         <h2 className="text-2xl md:text-4xl font-medium mb-5">
           لماذا تختار ماكدونالدز؟

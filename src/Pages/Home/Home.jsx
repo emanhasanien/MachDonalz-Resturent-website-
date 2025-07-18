@@ -6,7 +6,7 @@ import FeaturedProducts from "./FeaturedProducts"
 const Home = () => {
   return (
     <>
-     <section className=" my-20">
+     <section className="min-h-screen">
      <Hero HeroImg={HeroImg}/>
      <WhyMac/>
      <FeaturedProducts/>

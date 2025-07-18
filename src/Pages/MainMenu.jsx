@@ -40,7 +40,7 @@ function MainMenu() {
         </p>
       </div>
 
-      <div className="flex items-center md:gap-6 w-[70%] mx-auto">
+      <div className="flex items-center md:gap-6 w-[70%] mx-auto mt-9">
         <div
           className={`cursor-pointer  md:px-2 pb-2.5 hover:bg-[#FF2200]  hover:text-white rounded-sm md:text-[20px] font-semibold`}
           onClick={() => filteredMenuItems("all")}
@@ -61,7 +61,7 @@ function MainMenu() {
           })}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
         {(filteredItems.length > 0 ? filteredItems : menuItems).map((item) => {
           return (
             <ProductCard

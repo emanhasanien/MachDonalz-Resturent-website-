@@ -15,14 +15,14 @@ const FeaturedProducts = () => {
           Error has occered when fetchin data
         </p>
       ) : null}
-      <div className="text-center mt-20 mb-20">
+      <div className="text-center my-10 ">
         <h2 className="text-2xl md:text-4xl font-medium mb-5">أشهر منتجاتنا</h2>
         <p className="text-[20px] text-gray-500 mb-5">
           اكتشف أطباقنا المفضلة لدى العملاء
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto mb-20">
         {featuredMeals.length > 0 ? (
           featuredMeals.map((product) => {
             return (

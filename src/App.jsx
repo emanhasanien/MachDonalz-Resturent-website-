@@ -3,7 +3,7 @@ import Layout from "./Components/layout";
 import { Children, lazy } from "react";
 const Home = lazy(() => import("./Pages/Home/Home"));
 const MainMenu = lazy(() => import("./Pages/MainMenu"));
-const About = lazy(() => import("./Pages/About"));
+const About = lazy(() => import("./Pages/About/About"));
 const Contact = lazy(() => import("./Pages/Contact"));
 const App = () => {
   const routes = createBrowserRouter([
