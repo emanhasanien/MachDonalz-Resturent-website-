@@ -3,27 +3,23 @@ import { Heart, Leaf, Users } from "lucide-react";
 const OurValues = () => {
     const card = [
     {
-      icon: "heart",
+      icon: Heart,
       title: "الجودة أولاً ",
       description:"نحن ملتزمون بتقديم أعلى معايير الجودة في جميع منتجاتنا وخدماتنا",
     },
     {
-      icon: "users",
+      icon: Users,
       title: "خدمة العملاء",
       description: "رضا عملائنا هو أولويتنا الأولى، ونسعى دائماً لتقديم تجربة استثنائية",
     },
     {
-      icon: "leaf",
+      icon: Leaf ,
       title: "الاستدامة",
       description: "نحن ملتزمون بحماية البيئة من خلال ممارسات مستدامة ومسؤولة",
     },
   ];
 
-  const iconMap={
-    "heart": Heart,
-    "users": Users,
-    "leaf": Leaf 
-  }
+ 
  
   
   return (
@@ -39,11 +35,11 @@ const OurValues = () => {
 
       <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {card.map((item) => {
-          const IconComponent = iconMap[item.icon]
+         
           return (
             <div key={item.title} className="text-center">
               <div className="flex items-center justify-center w-16 h-16 text-mcdonaliz-red rounded-full mx-auto mb-5">
-                <IconComponent className="w-12 h-12 font-medium" />
+                <item.icon className="w-12 h-12 font-medium" />
               </div>
               <h4 className="text-2xl font-medium">{item.title}</h4>
               <p className="text-gray-500 mt-2.5 ">{item.description}</p>

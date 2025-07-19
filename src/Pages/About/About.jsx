@@ -5,7 +5,7 @@ import TimeLine from "./TimeLine";
 
 const About = () => {
   return (
-    <section className="">
+    <section >
       {/* about us  */}
 
       <div className="h-96 bg-mcdonaliz-red text-white text-center flex flex-col items-center justify-center">

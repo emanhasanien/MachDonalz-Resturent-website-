@@ -29,6 +29,3 @@ body{
 .bg-mcdonaliz-dark-red{
   background-color: var(--mcdonaliz-dark-red);
 }
-.capitalize-first::first-letter {
-     text-transform: uppercase;
-   }

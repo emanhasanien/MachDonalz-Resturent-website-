@@ -4,19 +4,21 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-   "start": "vite",
-  "server": "json-server --watch src/database/db.json --port 3001",
-  "dev": "concurrently \"npm run start\" \"npm run server\"",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview"
+    "start": "vite",
+    "server": "json-server --watch src/database/db.json --port 3001",
+    "dev": "concurrently \"npm run start\" \"npm run server\"",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "axios": "^1.10.0",
+    "leaflet": "^1.9.4",
     "lucide-react": "^0.525.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.6.3",
     "tailwindcss": "^4.1.11"
   },

@@ -1,10 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import 'leaflet/dist/leaflet.css';
 import Layout from "./Components/layout";
 import { Children, lazy } from "react";
 const Home = lazy(() => import("./Pages/Home/Home"));
 const MainMenu = lazy(() => import("./Pages/MainMenu"));
 const About = lazy(() => import("./Pages/About/About"));
-const Contact = lazy(() => import("./Pages/Contact"));
+const Contact = lazy(() => import("./Pages/Contact/Contact"));
 const App = () => {
   const routes = createBrowserRouter([
     {
