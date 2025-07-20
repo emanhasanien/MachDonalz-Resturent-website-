@@ -20,7 +20,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
-   const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <nav className="bg-mcdonaliz-dark-red shadow-lg sticky top-0 z-50">
@@ -54,7 +54,7 @@ const Navbar = () => {
 
           <button
             onClick={() => navigate("/sign-in")}
-            className="bg-mcdonaliz-yellow px-4 py-2 rounded-md cursor-pointer"
+            className="hidden md:block bg-mcdonaliz-yellow px-4 py-2 rounded-md cursor-pointer"
           >
             اطلب الآن
           </button>
@@ -91,7 +91,10 @@ const Navbar = () => {
             })}
 
             <div className="px-3 py-2">
-              <button className="w-full p-2.5 rounded-[10px]  bg-mcdonaliz-yellow text-black hover:bg-yellow-500 font-medium">
+              <button
+                className="w-full p-2.5 rounded-[10px]  bg-mcdonaliz-yellow text-black hover:bg-yellow-500 font-medium"
+                onClick={() => navigate("/sign-in")}
+              >
                 اطلب الآن
               </button>
             </div>
