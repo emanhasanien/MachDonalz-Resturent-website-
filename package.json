@@ -12,6 +12,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.35.3",
+    "@clerk/elements": "^0.23.43",
     "@tailwindcss/vite": "^4.1.11",
     "axios": "^1.10.0",
     "leaflet": "^1.9.4",

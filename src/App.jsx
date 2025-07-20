@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import 'leaflet/dist/leaflet.css';
 import Layout from "./Components/layout";
 import { Children, lazy } from "react";
+import SignInPage from "./Components/SignInPage";
 const Home = lazy(() => import("./Pages/Home/Home"));
 const MainMenu = lazy(() => import("./Pages/MainMenu"));
 const About = lazy(() => import("./Pages/About/About"));
@@ -16,6 +17,7 @@ const App = () => {
         { path: "/menu", element: <MainMenu /> },
         { path: "/about", element: <About /> },
         { path: "/contact", element: <Contact /> },
+        { path: "/sign-in", element: <SignInPage/> },
       ],
     },
   ]);

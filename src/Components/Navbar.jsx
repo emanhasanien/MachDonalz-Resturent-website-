@@ -1,7 +1,13 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import Button from "./Button";
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+} from "@clerk/clerk-react";
 
 const Navbar = () => {
   const menuItems = [
@@ -14,6 +20,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
+   const navigate = useNavigate();
 
   return (
     <nav className="bg-mcdonaliz-dark-red shadow-lg sticky top-0 z-50">
@@ -44,7 +51,13 @@ const Navbar = () => {
           </div>
 
           {/* زر الطلب */}
-         <Button text={"اطلب الآن"}/>
+
+          <button
+            onClick={() => navigate("/sign-in")}
+            className="bg-mcdonaliz-yellow px-4 py-2 rounded-md cursor-pointer"
+          >
+            اطلب الآن
+          </button>
 
           {/* زر القائمة - الجوال */}
           <div className="md:hidden">
